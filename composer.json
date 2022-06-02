@@ -24,7 +24,8 @@
         "drush/drush": "^10",
         "oomphinc/composer-installers-extender": "^2.0",
         "vlucas/phpdotenv": "^5.4",
-        "webflo/drupal-finder": "^1.2"
+        "webflo/drupal-finder": "^1.2",
+        "roberto-araya/bt_store_cl": "1.x"
     },
     "require-dev": {
         "behat/behat": "^3.10",
@@ -33,12 +34,15 @@
         "drevops/behat-screenshot": "^1",
         "drevops/behat-steps": "^1",
         "drupal/core-dev": "^9",
+        "drupal/devel": "4.x-dev",
         "drupal/drupal-extension": "^4",
+        "kint-php/kint": "dev-master",
         "php-parallel-lint/php-parallel-lint": "^1.3",
         "phpcompatibility/php-compatibility": "^9.3",
         "phpspec/prophecy-phpunit": "^2.0",
         "pyrech/composer-changelogs": "^1.8"
     },
+    "minimum-stability": "dev",
     "autoload": {
         "classmap": [
             "scripts/composer/"
